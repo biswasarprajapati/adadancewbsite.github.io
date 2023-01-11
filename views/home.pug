@@ -1,0 +1,50 @@
+extends base.pug 
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcome to Kalakriti 
+        div.small Eat Sleep Dance Repeat 
+
+    section#missionSection 
+        h3 Our Mission 
+        div.card 
+            h3 Dance Perfection 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/Anisha3.webp")
+
+                div.card-content 
+                 p Perfect is the horizon that vanishes as you approach it. And yet, dancers continue to chase unrealistic ideals—research has shown considerably high levels of perfectionism in dancers. While dancers need to be disciplined in their practice to be successful, perfectionism left unchecked can have serious consequences.
+        div.card 
+            h3 Dance the way you like 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/Anisha5.jpg")
+
+                div.card-content 
+                 p It has health benefits from increasing stamina, relieving stress, and body sculpting to name a few. But it's also great for mental and emotional health. I feel that dance brings people together and provides them with a sense of community with people that have the same interests and passion. 
+        div.card 
+            h3 Expert Teaching 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/Anisha 2.webp")
+
+                div.card-content  
+                 p Freedom and flexibility: For the most part, dance instructors get to set our own schedules, which allows us to earn money by teaching people about our passion, while also pursuing creative projects on the side. There are few things more liberating and exciting than working as a full-time dance instructor.  
+
+    section#sponsorsSection 
+        h3 Our Sponsors
+        div#sponsors 
+            img(src="/static/img/applelogo1.png", alt="Sponsor Image", class = "spImage")
+            img(src="/static/img/hp images.png", alt="Sponsor Image", class = "spImage")
+            img(src="/static/img/microsoft.png", alt="Sponsor Image", class = "spImage")
+            img(src="/static/img/google.webp", alt="Sponsor Image", class = "spImage")
+
+ 

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Roboto+Slab:wght@600&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.container{
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.myInput{
+    width: 44%;
+    padding: 9px;
+    margin: 9px;
+    font-size: 17px;
+    border: 2px solid #ce92b9;
+    border-radius: 12px;
+    outline: none;
+}
+
+.btn{
+    padding: 12px 39px;
+    font-size: 24px;
+    border: 2px solid #ab357e;
+    border-radius: 20px;
+    color: #fac4c4;
+    background-color: #d348a5;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover{
+    background-color: #581642;
+}
